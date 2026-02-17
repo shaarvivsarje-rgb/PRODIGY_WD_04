@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <h2 class="logo">MyPortfolio</h2>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="home-content">
+            <h1>Hi, I'm Shaarvi 👩‍💻</h1>
+            <h2>A Passionate Web Developer</h2>
+            <p>I build responsive and interactive websites using HTML, CSS & JavaScript.</p>
+            <button onclick="scrollToSection('projects')">View My Work</button>
+        </div>
+
+        <div class="home-image">
+            <img src="/Image/Profile_photo.JPG">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>
+            I am a Computer Engineering student passionate about frontend development.
+            I specialize in building responsive websites and interactive web applications.
+        </p>
+
+        <div class="about-details">
+            <div>
+                <h3>Education</h3>
+                <p>Bachelor of Engineering in Computer Engineering</p>
+            </div>
+
+            <div>
+                <h3>Skills</h3>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>Git & GitHub</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+
+        <div class="project-container">
+            <div class="project-card">
+                <h3>Tic Tac Toe Game</h3>
+                <p>Interactive JavaScript game with sound effects.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Stopwatch App</h3>
+                <p>Responsive stopwatch with start, pause, and reset features.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Interactive Navigation Menu</h3>
+                <p>Animated navigation bar with hover effects.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: shaarvi@example.com</p>
+        <button onclick="showMessage()">Say Hello 👋</button>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Shaarvi | All Rights Reserved</p>
+    </footer>
+
+    <!-- JavaScript LINK -->
+    <script src="script2.js"></script>
+</body>
+</html>
